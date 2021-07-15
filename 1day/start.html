@@ -58,27 +58,30 @@
     <audio data-key="76" src="sound/01 - JavaScript Drum Kit_sounds_tink.wav"></audio>
 
     <script>
-        
-        document.addEventListener('keydown', (e) => {
-            const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+        //소리를 재생하는 함수 
+        function audioPlay(e) {
             const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+            const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
 
-            //없는 값이 입력되면 무시됨 
-            if(!audio) 
-                return; 
-            key.classList.add("playing");
+            //무시
+            if(!audio) return;
+            key.classList.add("playing"); //클래스 추가 
             audio.currentTime = 0;
             audio.play();
-        });
-
-        function removeClass(e) {
-            if(e.propertyName !== 'transform') return;
-
-            e.target.classList.remove("playing");
         }
 
+        //클래스 제거 함수 
+        function removeClass(e) {
+            if(e.propertyName !== "transform") return; 
+            e.target.classList.remove("playing");
+        }
+        
+        //transitionend이벤트가 발생하면 removeClass를 호출한다 
         const keys = document.querySelectorAll('.key');
         keys.forEach(key => key.addEventListener('transitionend', removeClass));
+
+        //keydown 이벤트가 발생하면 audioPlay를 호출한다
+        document.addEventListener('keydown', audioPlay);
     </script>
 </body>
 </html>
