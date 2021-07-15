@@ -1,0 +1,6 @@
+- html - kbd태그 - [https://developer.mozilla.org/ko/docs/Web/HTML/Element/kbd](https://developer.mozilla.org/ko/docs/Web/HTML/Element/kbd)
+- html - data-* 속성 - [https://mygumi.tistory.com/341#:~:text=data 속성은 HTML 요소,저장한다고 생각하면 된다](https://mygumi.tistory.com/341#:~:text=data%20%EC%86%8D%EC%84%B1%EC%9D%80%20HTML%20%EC%9A%94%EC%86%8C,%EC%A0%80%EC%9E%A5%ED%95%9C%EB%8B%A4%EA%B3%A0%20%EC%83%9D%EA%B0%81%ED%95%98%EB%A9%B4%20%EB%90%9C%EB%8B%A4).
+- 자스 - 키보드 이벤트 - [https://hianna.tistory.com/496](https://hianna.tistory.com/496)
+- 자스 - 오디오 객체 얻어서 실행시키기 - [https://curryyou.tistory.com/337](https://curryyou.tistory.com/337)
+- 자바스크립트 classList - [https://velog.io/@rimu/자바스크립트-classList.add-remove-contains-toggle](https://velog.io/@rimu/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-classList.add-remove-contains-toggle)
+- transitionend 이벤트 - [http://www.w3bai.com/ko/jsref/event_transitionend.html](http://www.w3bai.com/ko/jsref/event_transitionend.html)
