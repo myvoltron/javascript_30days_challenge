@@ -1,5 +1,8 @@
 #2day 정리 
 
+start버전이 내가 만든 것 
+finished버전이 완성본 
+
 - 자바스크립트로 css transform속성  다루기
 - transform속성 기준점 설정하기 - [https://mjmjmj98.tistory.com/41](https://mjmjmj98.tistory.com/41)
 - margin: 50px auto; /*위 아래 여백은 50px로 주고 좌우여백은 균등하게 배분한다는 뜻이다. */
