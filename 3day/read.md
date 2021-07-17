@@ -10,7 +10,7 @@ for 속성값이 결합하고자 하는 요소 id값과 같아야 한다.
 
 **슬라이더바(input type range)의 실시간으로 바뀌는 값을 확인하려면 input 이벤트를 이용하면 된다. -** [https://developer.mozilla.org/ko/docs/Web/API/HTMLElement/input_event](https://developer.mozilla.org/ko/docs/Web/API/HTMLElement/input_event) 
 
-<input>, <select>, <textarea> 요소의 value 속성이 바뀔 때마다 발생한다. 
+input, select, textarea 요소의 value 속성이 바뀔 때마다 발생한다. 
 
 **CSS로 블러효과 - [https://webisfree.com/2019-07-09/css-filter-프로퍼티-사용하여-블러-효과-적용하기-blur](https://webisfree.com/2019-07-09/css-filter-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EB%B8%94%EB%9F%AC-%ED%9A%A8%EA%B3%BC-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-blur)** 
 
