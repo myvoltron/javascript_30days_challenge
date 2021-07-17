@@ -28,21 +28,23 @@ CSS로 디자인을 할 때, 통일성을 위해 동일한 값을 자주 쓰게 
 
 예를 들어 
 
+```css
 :root {
-
 —color-black: #3f454d;
-
 }
+```
 
 변수 사용은 var() 로 소괄호안에 속성 값을 입력한다. 
 
 예를 들어 
 
+```css
 .item {
 
 background-color: var(—color-black);
 
 }
+```
 
 **Document.documentElement - document의 root element를 반환 -** [https://developer.mozilla.org/en-US/docs/Web/API/Document/documentElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/documentElement) 
 
